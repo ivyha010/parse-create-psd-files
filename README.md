@@ -18,9 +18,7 @@ This project provides Python scripts to manipulate Adobe Photoshop files (PSD). 
   - Saves both the layered PSD and a merged PNG preview.
 
 * utils.py
-
 Contains helper functions:
-
     parse_file(psdFile, pngFile, parseOutFolder) : Extracts layers from a PSD and saves them as PNGs.
     
     load_images(imgPath, files) : Loads PNG images into memory as RGBA.
